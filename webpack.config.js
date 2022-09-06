@@ -17,7 +17,7 @@ module.exports = {
   devtool: "source-map",
   devServer: {
     static: {
-      directory: path.resolve(__dirname, "dist"),
+      directory: path.resolve(__dirname, "src"),
     },
     port: 3000,
     open: true, // open browser
@@ -49,7 +49,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Webpack App",
+      title: "Flexbox Tutorial",
       filename: "index.html",
       template: "src/template.html",
     }),

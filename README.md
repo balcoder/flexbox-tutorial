@@ -1,6 +1,6 @@
-# webpack5_starter
+# Flexbox Tutorial Project
 
-This is a webpack 5 starter tool to get you up and running with a webapp quickly
+This is a flexbox tutorial project of a booking webapp to practice some of the main features of flexbox
 
 ## To Use for development
 
